@@ -12,5 +12,6 @@
 
 //query selector
 
-let a=document.querySelectorAll("P");
+let a=document.querySelector("P");
 console.dir(a);
+a.tagName
