@@ -12,6 +12,7 @@
 
 //query selector
 
-let a=document.querySelector("P");
-console.dir(a);
-a.tagName
+// let a=document.querySelectorAll("P");
+// console.dir(a);
+//first child
+console.dir(document.body.firstChild);
