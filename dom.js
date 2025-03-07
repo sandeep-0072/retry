@@ -15,4 +15,8 @@
 // let a=document.querySelectorAll("P");
 // console.dir(a);
 //first child
-console.dir(document.body.firstChild);
+// console.dir(document.body.firstChild);
+// let a=document.querySelector("div").children;
+// console.dir(a);
+let div=document.querySelector("div").children;
+console.dir(div)
