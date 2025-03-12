@@ -1,10 +1,38 @@
 div{
-    height: 100px;
+    height: 250px;
     width:100px;
     background-color: blue;
     margin: 5px;
-    display: inline-block;
+    /* display: inline-block; */
     border: 5px solid black;
     position: relative;
     text-align: center;
+}
+h1{
+    color:white;
+    animation-name: blink;
+    animation-timing-function: linear;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes blink{
+    to{color: white;}
+    from{color: red;}
+}
+main{
+    color: red;
+    margin-top: 200px;
+    height: 200px;
+    width: 200px;
+    background-color: black;
+}
+.content{
+    color: yellowgreen;
+    /* background-color: blue; */
+    height: 200px;
+    width: 200px;
+    display: block;
+}
+.newclass{
+    background-color: red";
 }
