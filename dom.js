@@ -38,5 +38,24 @@
 // // console.log(i[0]);
 // // i [0].innertext="sandeep"
 
-let a=document.querySelector("box").innertext;
-console.log(a);
+// let i =document.querySelector("div");
+// console.log(i);
+
+// let a=i.getAttribute("class");
+// console.log(a);
+
+// let id=document.querySelector("sandeep");
+// console.log(id);
+// let x=id.getAttribute("class");
+// console.log(x)
+
+// let a=document.querySelector("p");
+// console.log(a.getAttribute("class"))
+
+//to set the value of an attribute
+// let a=document.querySelector("p");
+// console.log(a.setAttribute("class","new class"))
+
+
+let a=document.querySelector("div");
+console.log(a.style.backgroundColor="green");
