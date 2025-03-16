@@ -21,31 +21,3 @@ h1{
     animation-duration: 0.5s;
     animation-iteration-count: infinite;
 }
-@keyframes loader{
-    to{transform: rotate(0deg);}
-    from{transform: rotate(360deg);
-    /* left: 200px;} */
-}
-main{
-    color: red;
-    margin-top: 200px;
-    height: 200px;
-    width: 200px;
-    background-color: black;
-}
-.content{
-    color: yellowgreen;
-    /* background-color: blue; */
-    height: 200px;
-    width: 200px;
-    display: block;
-}
-.newclass{
-    background-color: red";
-}
-.box5{
-    height: 200px;
-
-    width: 200px;
-    background-color: black;
-}
