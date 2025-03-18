@@ -85,4 +85,14 @@
 // button.style.backgroundColor="red"
 // let i=document.querySelector("body");
 // i.prepend(button);
-let para=document.querySelector("p");
+// let para=document.querySelector("p");
+// let a=document.querySelector("main");
+// a.innerText="shruti";
+// console.log(a);
+let btn1=document.querySelector("#btn1");
+btn1.onclick=()=>{
+    console.log("btn1 was clicked");
+    let a=25;
+    a++;
+    console.log(a);
+}
