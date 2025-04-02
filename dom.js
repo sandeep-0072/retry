@@ -89,10 +89,30 @@
 // let a=document.querySelector("main");
 // a.innerText="shruti";
 // console.log(a);
-let btn1=document.querySelector("#btn1");
-btn1.onclick=()=>{
-    console.log("btn1 was clicked");
-    let a=25;
-    a++;
-    console.log(a);
-}
+// let btn1=document.querySelector("#btn1");
+// btn1.onclick=()=>{
+//     console.log("btn1 was clicked");
+//     let a=25;
+//     a++;
+//     console.log(a);
+// // }
+// let a=document.querySelectorAll(".nav");
+// a[0].innertext="inner text";
+// console.log(a);
+// let a=document.querySelectorAll(".nav");
+// console.log(a) 
+//  let a=document.querySelectorAll(".nav");
+//  a[0].innertext="outer text";
+//  console.log(a);
+// let newfrt=document.createElement("li");
+// newfrt.innerText="mango";
+// let a=document.querySelector("ul");
+// a.append(newfrt);
+// box1.append(newfrt);
+let a=document.createElement("marquee")
+a.innerText="welcome to my project"
+let b=document.querySelector(".box1");
+b.append(a);
+ 
+
+
